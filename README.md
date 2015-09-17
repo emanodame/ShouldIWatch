@@ -1,6 +1,6 @@
 My first project with C#, Should I Watch? This program allows you to input a movie or tv show and advices you if you should watch it. 
 
-It gets data from websites such as Metacritic and IMDB. If other people rated the movie very poorly, it will show on Metacritic and IMDB thus the program advising you not to watch the program. Vise versa for highly rated movies. 
+Software gets data from websites such as Metacritic and IMDB. If other people rated the movie very poorly, it will show on Metacritic and IMDB thus the program advising you not to watch the tv show or movie. Again, if a movie or is rated very highly, the program will advice you to watch it!
 
 ####**Version 1.0** 
 
