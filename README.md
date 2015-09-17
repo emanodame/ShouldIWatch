@@ -4,6 +4,6 @@ Software gets data from websites such as Metacritic and IMDB. If other people ra
 
 ####**Version 1.0** 
 
-- MySQL implementation that allows the input box to autocomplete the movie/tv show you're typing. The Database stores 1.5million titles.
+- MySQL implementation that allows the input box to autocomplete the movie/tv show you're typing. The Database stores 1.5 million movie and television titles.
 - Using NuGet package manager, I used the 'FluentMetacritic' package to get Critic Score,User scores and genres from Metacritic.
 - Smooth looking design.
