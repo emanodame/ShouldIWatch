@@ -13,4 +13,4 @@ Software gets data from websites such as Metacritic and IMDB. If other people ra
 - On the Movie analysis the youtube trailer for the designated movie is automatically embedded on the page.
 - Implemented IMDB evaluation.  
 - Ability to go back to search window to search for another movie to evaluate. 
--
+
