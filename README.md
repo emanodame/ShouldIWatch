@@ -8,7 +8,7 @@ Software gets data from websites such as Metacritic and IMDB. If other people ra
 - Using NuGet package manager, I used the 'FluentMetacritic' package to get Critic Score,User scores and Genres from Metacritic.
 - Smooth looking design.
 
-####**Version 1.5***
+####**Version 1.5**
 
 - On the Movie analysis the youtube trailer for the designated movie is automatically embedded on the page.
 - Implemented IMDB evaluation.  
