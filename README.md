@@ -14,3 +14,7 @@ Software gets data from websites such as Metacritic and IMDB. If other people ra
 - Implemented IMDB evaluation.  
 - Ability to go back to search window to search for another movie to evaluate. 
 
+####**Version 1.5.1**
+- Added the option to get the director of each movie.
+- Fixed bug with back button. (The button goes blue when you put your cursor on it.)
+
