@@ -1,0 +1,40 @@
+<Window x:Class="ShouldIWatch.DisplayPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShouldIWatch"
+        mc:Ignorable="d"
+        ResizeMode="CanMinimize"
+        Title="Should I Watch?" Height="650" Width="840" WindowStartupLocation="CenterScreen" Icon="C:\Users\Eman\Google Drive\Personal stuff\C#\ShouldIWatch\ShouldIWatch\Arrioch-Senary-System-help.ico">
+    <Window.Resources>
+        <Style x:Key="ImageStyle1" TargetType="{x:Type Image}">
+            <Setter Property="FlowDirection" Value="LeftToRight"/>
+            <Setter Property="Source" Value="dannybrown.ico"/>
+        </Style>
+    </Window.Resources>
+    <Grid Background="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}">
+
+        <StackPanel HorizontalAlignment="Center" Name="movietitle" Width="800" Margin="16,0,16,525" >
+
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Center" Name="dannyanswer" Width="800" Margin="16,564,16,-39" />
+        <StackPanel HorizontalAlignment="Left" Name="MetaCriticScorePanel" Height="97" Margin="0,130,0,0" VerticalAlignment="Top" Width="125">
+            <Label x:Name="MetaScoreLabel" HorizontalAlignment="Center"  FontStyle="Italic" FontWeight="ExtraBold" Content="Metascore:"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" x:Name="UserCriticScorePanel" Height="94" Margin="0,306,0,0" VerticalAlignment="Top" Width="125">
+            <Label x:Name="MetaScoreLabel1" HorizontalAlignment="Center"  FontStyle="Italic" FontWeight="ExtraBold" Content="User Score:"/>
+        </StackPanel>
+        <StackPanel x:Name="GenrePanel" HorizontalAlignment="Center" Height="52" Margin="64,42,128,0" VerticalAlignment="Top" Width="640"/>
+        <WebBrowser Name="MovieTrailer" HorizontalAlignment="Left" Height="470" Margin="125,94,0,0" VerticalAlignment="Top" Width="697"/>
+        <StackPanel HorizontalAlignment="Left" x:Name="IMDBScorePanel" Height="99" Margin="0,465,0,0" VerticalAlignment="Top" Width="125">
+            <Label x:Name="IMDBScore" HorizontalAlignment="Center"  FontStyle="Italic" FontWeight="ExtraBold" Content="IMDB Score:"/>
+        </StackPanel>
+
+
+        <Button Margin="0,0,784,573" Name="BackButton" Click="backButton_Click" >
+            <Image HorizontalAlignment="Right" Width="38" Height="36" Style="{DynamicResource ImageStyle1}" />
+        </Button>
+
+    </Grid>
+</Window>
