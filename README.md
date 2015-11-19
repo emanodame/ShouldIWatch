@@ -2,6 +2,9 @@ My first project with C#, Should I Watch? This program allows you to input a mov
 
 Software gets data from websites such as Metacritic and IMDB. If other people rated the movie very poorly, it will show on Metacritic and IMDB thus the program advising you not to watch the  movie. Again, if a movie or is rated very highly, the program will advice you to watch it!
 
+[FluentMetacritic](https://github.com/lewishenson/FluentMetacritic)
+[IMDB Scraper](https://code.google.com/p/imdb-api/)
+
 ####**Version 1.0** 
 
 - MySQL implementation that allows the input box to autocomplete the movie you're typing. The Database stores 1.5 million movie titles.
